@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login_tab.css">
+    <link rel="stylesheet" href="./css/login_mo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="all">
+        <div class="login_page">
+            <p class="small_circle"></p>
+            <section class="form_group">
+                <h3 class="login_title">로그인</h3>
+                <form action="">
+                    <fieldset>
+                        <label class="user_id" for="user_id">아이디(이메일)</label>
+                        <input placeholder="아이디(이메일)을 입력하세요." type="text" id="user_id" required>
+                        <br>
+                        <label class="user_pw" for="user_pw">비밀번호</label>
+                        <input placeholder="비밀번호를 입력하세요." type="password" id="user_pw" required>
+                        <br>
+                        <div class="bottom_group">
+                            <div class="id_rem">
+                                <input type="checkbox" id="user_agree">
+                                <label class="agree_desc" for="user_agree">아이디 저장</label>
+                            </div>
+                            <p class="find">아이디 찾기 / 비밀번호 찾기</p>
+                        </div>
+                        <br>
+                        <input class="login" type="submit" value="로그인">
+                        <input class="join" type="submit" value="회원가입">
+                    </fieldset>
+                </form>
+            </section>
+            <!-- <p class="left_one"></p>
+            <p class="right_first"></p>
+            <p class="right_second"></p> -->
+            <!-- <img class="wave_bg" src="./img/wave_bg.png" alt="배경 사진"> -->
+        </div>
+    </div>
+</body>
+</html>
