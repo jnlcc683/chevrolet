@@ -367,7 +367,7 @@
   font-family: "darelston";
   width: 100%;
   text-align: center;
-  margin-top: -2%;
+  margin-top: 1%;
 }
 
 .main_img_box{
@@ -378,7 +378,7 @@
   align-items: center;
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 43%;
 }
 .main_img{
   /* position: absolute; */
@@ -584,7 +584,7 @@
     width: 100%;
     padding-bottom: 10%;
     position: relative;
-    padding-bottom: 45%;
+    padding-bottom: 75%;
 }
 .page_3_text_group{
   /* border: 1px solid red; */
