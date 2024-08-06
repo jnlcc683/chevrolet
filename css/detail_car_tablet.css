@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width: 1024px){
+@media (min-width:769px) and (max-width: 1024px){
     @font-face{
         font-family: "designer";
         src: url("../font/Designer.otf")
@@ -313,109 +313,106 @@ header{
 
 /* 1페이지 */
 .page_1{
-    /* border: 2px solid blue; */
-    width: 100%;
-    padding-bottom: 20%;
-    position: relative;
-}
-.lets{
-  font-family: "darelston";
-  font-size: 100px;
-  padding-top: 20%;
-  padding-left: 10%;
+  /* border: 2px solid blue; */
+  width: 100%;
+  padding-bottom: 60%;
+  position: relative;
 }
 
-.slogan_group{
-    /* border: 1px solid red; */
-    width: 700px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 50px;
-    position: relative;
+.lets{
+/* border: 1px solid blue; */
+font-family: "darelston";
+font-size: 130px;
+padding-top: 28%;
+width: 100%;
+text-align: center;
+line-height: 0;
 }
-.slogan{
-    /* border: 1px solid black; */
-    font-size: 78px;
-    width: 180px;
-    height: 100px;
-    position: absolute;
-    left: 0;
-    top: 50px;
+.race{
+/* border: 1px solid black; */
+font-size: 380px;
+color: #C1E5FF;
+font-family: "darelston";
+width: 100%;
+text-align: center;
+margin-top: -2%;
 }
-.slogan_span{
-  /* border: 1px solid black; */
-  font-size: 420px;
-  color: #C1E5FF;
-  position: absolute;
-  left: 5px;
-  top: 170px;
-  font-family: "darelston";
+
+.main_img_box{
+width: 100%;
+/* border: 1px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+left: 0;
+top: 42%;
 }
 .main_img{
-    position: absolute;
-    left: 50px;
-    top: 510px;
-    width: 860px;
-    display: block;
-    /* height: 430px; */
+/* position: absolute; */
+left: 13%;
+top: 54%;
+display: block;
 }
 
 .bottom_group{
-    display: flex;
-    align-items: center;
-    /* border: 3px solid hotpink; */
-    width: 840px;
-    /* transform: translate(120px, 10px); */
-    margin: 0 auto;
+/* border: 1px solid red; */
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 72%;
 }
 .high_group{
-    /* border: 2px solid green; */
-    width: 840px;
-    height: 100px;
-    margin: 0 auto;
-    /* margin-left: 400px; */
-    margin-top: 440px;
-    display: flex;
+  /* border: 2px solid green; */
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  /* margin-left: 400px; */
+  margin-top: 170px;
+  display: flex;
 }
 .high_group>section{
-    /* border: 1px solid orange; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
+  /* border: 1px solid orange; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 .high_title{
-    /* border: 1px solid red; */
-    margin-right: 5px;
-    width: 150px;
-    height: 35px;
-    margin: 0 auto;
-    font-weight: 600;
-    font-size: 20px;
+  /* border: 1px solid red; */
+  margin-right: 5px;
+  width: 150px;
+  height: 35px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 20px;
 }
 .high_sub{
-    /* border: 1px solid blue; */
-    width: 195px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    font-weight: 450;
-    font-size: 18px;
+  /* border: 1px solid blue; */
+  width: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 450;
+  font-size: 18px;
 }
 .go_2025{
-    border-radius: 30px;
-    background: #fff;
-    border: 1px solid black;
-    color: #000;
-    width: 300px;
-    height: 50px;
-    font-weight: 750;
-    font-size: 16px;
+  border-radius: 30px;
+  background: #fff;
+  /* border: 1px solid black; */
+  color: #000;
+  width: 300px;
+  height: 50px;
+  font-weight: 750;
+  font-size: 16px;
 
-    position: absolute;
-    right: 100px;
-    top: 129px;
+  position: absolute;
+  left: 1470px;
+  top: 674px;
 }
 
 
@@ -424,7 +421,7 @@ header{
 .page_2{
     /* border: 2px solid orange; */
     width: 100%;
-    /* height: 1000px; */
+    padding-bottom: 20%;
     position: relative;
 }
 .page_2_slogan{
@@ -572,7 +569,7 @@ header{
 .page_3{
     /* border: 2px solid blue; */
     width: 100%;
-    /* height: 1000px; */
+    padding-bottom: 20%;
     position: relative;
 }
 .page_3_text_group{
