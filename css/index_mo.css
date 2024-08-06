@@ -92,6 +92,7 @@
       transition: all 0.3s ease 0s;
       margin-top: 7%;
       text-align: center;
+      word-break: keep-all;
     }
     .sideGnbMenu>li:hover{
       color: #0B4BF0;
@@ -109,7 +110,7 @@
       margin-left: 68%;
       position: absolute;
       right: 5%;
-      top: -87%;
+      top: -70%;
     }
     .top_close_btn:hover{
       background: #0B4BF0;
