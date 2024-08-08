@@ -133,6 +133,7 @@
       transition: all 0.3s ease 0s;
       margin-top: 7%;
       text-align: center;
+      word-break: keep-all;
     }
     .sideGnbMenu>li:hover{
       color: #0B4BF0;

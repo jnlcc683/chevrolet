@@ -55,6 +55,10 @@
     html{
       font-family: "Noto Sans KR", sans-serif;
     }
+    .all{
+      width: 100%;
+      overflow: hidden;
+    }
     
   
     .btn_gnb_menu{
@@ -297,35 +301,36 @@
       width: 100%;
       /* border: 1px solid yellow; */
     }
+    .logo{
+      margin-right: 3%;
+    }
     .logo img{
       width: 120px;
-      margin-left: 45%;
-      /* margin-top: 30px; */
-      /* border: 1px solid lime; */
+      margin-left: 21%;
     }
     
     /* gnb */
     .gnb{
-      /* border: 1px solid white; */
+      border: 1px solid red;
       display: flex;
       justify-content: space-between;
-      margin-right: 209px;
+      margin-right: 2%;
       font-size: 20px;
       font-weight: 600;
-      margin-left: 5%;
+      /* margin-left: 5%; */
       /* margin-top: 60px; */
-      width: 470px;
+      width: 70%;
     }
     .gnb>li{
         /* border: 1px solid red; */
         position: relative;
-        width: 130px;
+        /* width: 130px; */
         color: #fff;
     }
     .gnb>li>a{
-        /* border: 1px solid blue; */
+        border: 1px solid blue;
         display: block;
-        width: 130px;
+        width: 93px;
         height: 50px;
         display: flex;
         justify-content: center;
