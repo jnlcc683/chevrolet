@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>차량 상세정보</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/detail_car.css">
+    <link rel="stylesheet" href="./css/detail_car_tablet.css">
+    <link rel="stylesheet" href="./css/detail_car.mo.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/detail_car.js"></script>
+    <script src="./js/sideGnbCar.js"></script>
+    <script src="./js/slideable.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sideGnb">
+        <div class="sideGnbTop">
+          <ul class="sideGnbMenu">
+            <li><a href="./detail_car.html">차량</a></li>
+            <li><a href="./detail_evlife.html">EV LIFE</a></li>
+            <li><a href="./index.html">온라인구매</a></li>
+            <li><a href="./index.html">서비스</a></li>
+            <li><a href="./index.html">브랜드</a></li>
+          </ul>
+          <button class="top_close_btn">CLOSE</button>
+        </div>
+        <div class="sideGnbMain">
+          <section class="sideMainLeft">
+            <ul class="left1">
+              <li class="on">SUV</li>
+              <li>CUV</li>
+              <li>TRUCK</li>
+            </ul>
+            <!-- <ul class="left2">
+              <li>
+                <p>온라인샵</p>
+                <span class="left2_arrow">❯</span>
+              </li>
+              <li>
+                <p>견적 상담 신청</p>
+                <span class="left2_arrow">❯</span>
+              </li>
+              <li>
+                <p>시승 상담 신청</p>
+                <span class="left2_arrow">❯</span>
+              </li>
+              </li>
+            </ul> -->
+          </section>
+          <section class="sideMainRight">
+            <ul class="right1">
+              <li>
+                <img src="./img/suv_trailblazer.png" alt="suv 트레일블레이저">
+                <p>TRAILBLAZER</p>
+              </li>
+              <li>
+                <img src="./img/suv_taho.png" alt="suv 타호">
+                <p>TAHO</p>
+              </li>
+              <li>
+                <img src="./img/suv_traverse.png" alt="suv 트래버스">
+                <p>TRAVERSE</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- <div class="sideGnbBottom">
+          <form action="#">
+            <input type="text" value="Search CHEVROLET Korea">
+          </form>
+        </div> -->
+    </div>
+    
+    <div class="all">
+        <header>
+            <div class="logo">
+                <a href="./index.html"><img src="./img/logo_gray.png" alt="쉐보레 로고"></a>
+            </div>
+            <ul class="gnb">
+                <li><a href="./detail_car.html">차량</a></li>
+                <li><a href="./detail_evlife.html">EV LIFE</a></li>
+                <li><a href="./index.html">온라인구매</a></li>
+                <li><a href="./index.html">서비스</a></li>
+                <li><a href="./index.html">브랜드</a></li>
+            </ul>
+            <a class="login_icon" href="./detail_login.html"><img src="./img/login_blue.png" alt="로그인 아이콘 이미지"></a>
+            <button class="btn_gnb_menu">MENU</button>
+    
+        </header>
+    
+        <div class="page_1">
+            <p class="lets">Let's</p> <br>
+            <p class="race">Race</p>
+    
+            <section class="main_img_box">
+                <img  class="main_img" src="./img/2025_white.png" alt="2025 트랙스크로스오버 화이트">
+            </section>
+
+            <div class="bottom_group">
+                <div class="high_group">
+                    <section>
+                        <span class="high_title">High Quality</span>
+                        <p class="high_sub">전시장 찾기</p>
+                    </section>
+                    <section>
+                        <span class="high_title">High Quality</span>
+                        <p class="high_sub">서비스 센터 찾기 및 예약</p>
+                    </section>
+                    <section>
+                        <span class="high_title">High Quality</span>
+                        <p class="high_sub">카탈로그/가격표 다운로드</p>
+                    </section>
+                    <section>
+                        <span class="high_title">High Quality</span>
+                        <p class="high_sub">이벤트</p>
+                    </section>
+                </div>
+        
+                <!-- <button class="go_2025">
+                    <p>2025 트랙스 크록스 오버 보러가기 → </p>
+                </button> -->
+            </div>
+        </div>
+        
+        <!-- 2페이지 -->
+        <section class="page_2">
+            <h1 class="page_2_slogan">
+                DESIGN YOUR ROAD
+            </h1>
+            <div class="page_2_group">
+                <img src="./img/2025_blue.png" alt="2025 트랙스오버 왼쪽">
+                <img src="./img/2025_black.png" alt="2025 트랙스오버 오른쪽">
+            </div>
+    
+            <div class="btn_group">
+                <button class="btn_2025">
+                    <p class="new">NEW!</p>
+                    <p class="btn_2025_a">2025</p> <br>
+                    <p class="btn_2025_b">TRAX CROSSOVER</p>
+                </button>
+    
+                <button class="btn_2024">
+                    <p class="btn_2024_a">2024</p> <br>
+                    <p class="btn_2024_b">TRAILBLAZER</p>
+                </button>
+    
+                <button class="btn_2023">
+                    <p class="btn_2023_a">2023</p> <br>
+                    <p class="btn_2023_b">TRAVERSE</p>
+                </button>
+            </div>
+        </section>
+    
+        <!-- 3페이지 -->
+        <section class="page_3">
+            <div class="page_3_text_group">
+                <h1 class="page_3_slogan">
+                    IT ALL COMES TOGETHER
+                </h1>
+                <p class="page_3desc">
+                    글로벌 시장에서 메가히트를 기록 중인 TRAX CROSSOVER는 <br>
+                    세단의 스타일과 주행성능, SUV의 다목적성이라는 장점을 <br>
+                    모두 보유한 모델입니다. 
+                    <br><br>
+                    전 세계인들에게 많은 사랑을 받는 크로스오버는 다양한 라이프스타일에 <br>
+                    최적화된 스타일리시한 디자인과 뛰어난 공간활용성, 차급을 뛰어넘는 <br>
+                    고급 옵션을 탑재하고 있습니다.
+                </p>
+                <button class="show_btn">SHOW MORE</button>
+            </div>
+            
+            <section class="page3_car_group">
+                <img class="page3_car" src="./img/page3_car.png" alt="위에서 보는 자동차 사진">
+        
+                <div class="desc_group">
+                    <section class="first">
+                        <h1 class="title">연비</h1>
+                        <p class="desc"><span class="desc_blue">12~12.7</span> km/ℓ</p>
+                    </section>
+                    <section class="second">
+                        <h1 class="title">출력</h1>
+                        <p class="desc"><span class="desc_blue">139hp</span> 엔진</p>
+                    </section>
+                    <section class="third">
+                        <h1 class="title">엔진</h1>
+                        <p class="desc"><span class="desc_blue">I3</span> 싱글터보</p>
+                    </section>
+                </div>
+            </section>
+        </section>
+    
+        <!-- 4페이지 -->
+        <section class="page_4">
+            <div class="inner_content4">
+                <div class="page_4_text_group">
+                    <h1 class="page_4_slogan">
+                        EXPLORE CHEVROLET
+                    </h1>
+                    <p class="page_4_desc">다양한 모습의 쉐보레를 만나보세요.</p>
+                </div>
+    
+                <div class="direction">
+                    <ul class="direction_list">
+                        <li class="on">FRONT</li>
+                        <li>SIDE</li>
+                        <li>REAR</li>
+                    </ul>
+                    <div class="direction_img_frame">
+                        <img class="direction_img" src="./img/front.png" alt="앞면 사진">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- 5페이지 -->
+        <section class="page_5">
+            <div class="direction5">
+                <ul class="direction_list5">
+                    <li class="on">터보엔진</li>
+                    <li>익스테리어</li>
+                    <li>인테리어</li>
+                    <li>멀티미디어 및 요약</li>
+                </ul>
+                <div class="direction_img_frame5">
+                    <img class="turbo_engine" src="./img/turbo_engine.jpg" alt="터보엔진">
+                </div>
+            </div>
+    
+    
+            <!-- <div class="tab_menu">
+                <h3>DESIGN</h3>
+                <section class="tab_text_group">
+                    <p class="tab_text">터보엔진</p>
+                    <p class="tab_text">익스테리어</p>
+                    <p class="tab_text">인테리어</p>
+                    <p class="tab_text">멀티미디어 및 요약</p>
+                </section>
+            </div> -->
+    
+            <!-- <div class="img_group">
+                <img class="page5_image" src="./img/page5_image.jpg" alt="가장 위에 있는 사진">
+                <img class="page5_images" src="./img/page5_images.png" alt="이미지 그룹들">
+            </div> -->
+        </section>
+    
+    
+    
+        <!-- 6페이지 -->
+        <section class="page_6">
+            <div class="page6_bluebx">
+                ABOUT CHEVROLET
+            </div>
+                <!-- <img class="page6_wave" src="./img/wave_bg.png" alt="6페이지 하단 배경사진"> -->
+    
+                <div class="direction6">
+                    <ul class="direction_list6">
+                        <li class="on">2025 <br>TRAX CROSSOVER</li>
+                        <li>2024 <br>TRAIL BLAZER</li>
+                        <li>2023 <br>TRAVERSE</li>
+                    </ul>
+                </div>
+                <div class="direction_img_frame6">
+                    <img class="tabgroup_2025" src="./img/2025.png" alt="2025 트랙스크로스오버 탭그룹 사진">
+                </div>
+    
+                <!-- <dl>
+                    <dt class="car_desc_tab_title1">
+                        <a href="#">
+                            2025 <br>
+                            TRAX CROSSOVER
+                        </a>
+                    </dt>
+                    <dd>
+                        <p class="car_desc_box">2,188~2,880만원</p>
+                        <p class="car_desc_box">연비 복합 12~12.7 km/ℓ</p>
+                        <p class="car_desc_box">배기 1,199 cc</p>
+                        <p class="car_desc_box">엔진 I3 싱글터보</p>
+                    </dd>
+    
+                    <dt class="car_desc_tab_title2">
+                        <a href="#">
+                            2024 <br>
+                            TRAILBLAZER
+                        </a>
+                    </dt>
+                    <dd>
+                        <p class="car_desc_box">2,699~3,339만원</p>
+                        <p class="car_desc_box">연비 복합 11.6~12.9km/ℓ</p>
+                        <p class="car_desc_box">배기 1,341cc</p>
+                        <p class="car_desc_box">엔진 I3 싱글터보</p>
+                    </dd>
+    
+                    <dt class="car_desc_tab_title3">
+                        <a href="#">
+                            2023 <br>
+                            TRAVERSE
+                        </a>
+                    </dt>
+                    <dd>
+                        <p class="car_desc_box">5,640~6,615만원</p>
+                        <p class="car_desc_box">연비 복합 8.3km/ℓ</p>
+                        <p class="car_desc_box">배기 3,564cc</p>
+                        <p class="car_desc_box">엔진 V6 자연흡기</p>
+                    </dd>
+                </dl> -->
+        </section>
+    
+        <footer>
+            <div class="line"></div>
+            <div class="inner_content">
+                <div class="foot_menu">
+                    <ul>
+                        <li><a href="#">Model</a>
+                            <ul>
+                                <li><a href="#">- SUV</a></li>
+                                <li><a href="#">- CUV</a></li>
+                                <li><a href="#">- TRUCK</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Purchase</a>
+                            <ul>
+                                <li><a href="#">- 견적내기</a></li>
+                                <li><a href="#">- 구매 가이드</a></li>
+                                <li><a href="#">- 구매 상담신청</a></li>
+                                <li><a href="#">- 사양 조회하기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Service</a>
+                            <ul>
+                                <li><a href="#">- 온스타 서비스</a></li>
+                                <li><a href="#">- 가까운 서비스센터 찾기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">My chevrolet</a>
+                            <ul>
+                                <li><a href="#">- 나의 차량 정보</a></li>
+                                <li><a href="#">- 견적 상담신청 내역</a></li>
+                                <li><a href="#">- 시승 상담신청 내역</a></li>
+                                <li><a href="#">- 정비 이력 조회</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact us</a>
+                            <ul>
+                                <li><a href="#">- 고객상담센터</a></li>
+                                <li><a href="#">- 1:1 문의 조회</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <section class="foot_logo"><a href="#"><img src="./img/logo_gray.png" alt="푸터 로고"></a></section>
+                <div class="foot_content">
+                    <section class="foot_info">
+                        <ul>
+                            <li>
+                                <div>
+                                    <a href="#"><img src="./img/foot_icon1.png" alt="푸터아이콘1"></a>
+                                    <p>웹 접근성 품질인증</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#"><img src="./img/foot_icon2.png" alt="푸터아이콘2"></a>
+                                    <p>우수디자인 지식경제부선정</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#"><img src="./img/foot_icon3.png" alt="푸터아이콘3"></a>
+                                    <p>가족친화 우수기관</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#"><img src="./img/foot_icon4.png" alt="푸터아이콘4"></a>
+                                    <p>2023년 한국서비스품질지수 (KS-SQI) 자동차 <br>
+                                    A/S 부문 9년 연속 1위</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="sns">
+                        <ul>
+                            <li><a href="#"><img src="./img/facebook.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="./img/youtube.png" alt="youtube"></a></li>
+                            <li><a href="#"><img class="instagram" src="./img/intsgram.png" alt="instagram"></a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+</html>
